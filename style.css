@@ -1,0 +1,82 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Young Serif', serif;
+}
+.container{
+    padding: 50px;
+}
+.section-one{
+    background-color: black;
+    color:aliceblue;
+    padding: 20px;
+}
+.section-one__contact{
+    text-decoration: none;
+    background-color: greenyellow;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+    display: inline-block;
+    margin-top: 5px;
+}
+.section-one__name{
+    font-size: 60px;
+}
+.section-one__role{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.section-one,.section-two,.section-three,.section-four,.section-five{
+    margin-top: 20px;
+}
+.section-two__desc,.section-three__desc,.section-four__desc,.section-five__desc{
+    margin-top: 10px;
+}
+.section-five{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+}
+.section-five a{
+    text-decoration: none;
+    color: skyblue;
+}
+.section-three li,.section-four li{
+    list-style: none;
+}
+.section-three{
+    display:inline-block;
+    background-color: #6462fd;
+    padding: 20px;
+    vertical-align: top;
+    border-radius: 10px;
+    height: 180px;
+}
+.section-four{
+    display:inline-block;
+    background-color:#fe7517;
+    padding: 20px;
+    vertical-align: top;
+    border-radius: 10px;
+}
+.container-form{
+    margin-top: 20px;
+}
+.container-form__input, .container-form__textarea,.container-form__submit{
+    margin-top: 10px;
+}
+.container-form__input{
+    border: none;
+    padding: 10px;
+    border-bottom: solid black 1px;
+}
+.container-form__submit{
+    padding: 10px;
+    background-color: greenyellow;
+    color: black;
+    border-radius: 5px;
+    font-weight: bold;
+}
